@@ -1,5 +1,5 @@
 <?php
 ?>
-<main>
+<main class="container">
 Sono Main
 </main>
