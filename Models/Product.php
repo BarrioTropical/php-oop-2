@@ -1,6 +1,8 @@
 <?php
 require_once __DIR__ . '/Category.php';
+require_once __DIR__ . '/Traits/Weightable.php';
     class Product {
+    use Weightable;
         public $name;
         public $price;
         public $discount;
